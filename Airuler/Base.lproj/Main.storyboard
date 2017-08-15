@@ -1,27 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A278a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lrx-L2-DvW">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Regular.ttf">
+            <string>Quicksand-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Airuler-->
+        <scene sceneID="Bxg-BF-XsS">
+            <objects>
+                <viewController id="kBq-cm-jTj" customClass="Main_Menu" customModule="Airuler" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="X3e-x9-YUg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Airuler Logo" translatesAutoresizingMaskIntoConstraints="NO" id="i3D-R4-Y4y">
+                                <rect key="frame" x="16" y="227" width="343" height="214"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe left to start measuring!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaS-tS-iKd">
+                                <rect key="frame" x="57" y="623.5" width="261.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="i3D-R4-Y4y" firstAttribute="trailing" secondItem="X3e-x9-YUg" secondAttribute="trailingMargin" id="NU4-aF-b4x"/>
+                            <constraint firstItem="i3D-R4-Y4y" firstAttribute="top" secondItem="FLS-DS-D1f" secondAttribute="top" constant="163" id="SqV-Dc-F9R"/>
+                            <constraint firstItem="XaS-tS-iKd" firstAttribute="centerX" secondItem="i3D-R4-Y4y" secondAttribute="centerX" id="WHI-NR-gl9"/>
+                            <constraint firstItem="i3D-R4-Y4y" firstAttribute="centerY" secondItem="X3e-x9-YUg" secondAttribute="centerY" id="aca-Jt-BH5"/>
+                            <constraint firstAttribute="bottom" secondItem="XaS-tS-iKd" secondAttribute="bottom" constant="20" symbolic="YES" id="oGB-mL-lt7"/>
+                            <constraint firstItem="i3D-R4-Y4y" firstAttribute="leading" secondItem="X3e-x9-YUg" secondAttribute="leadingMargin" id="qLI-fH-0Va"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FLS-DS-D1f"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="krq-sj-JIG" appends="YES" id="JP7-hg-Lt2"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="Airuler" id="qDe-Xg-Tiw">
+                        <barButtonItem key="backBarButtonItem" title=" " id="U9k-RD-N9C"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AVl-kf-Vom" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="krq-sj-JIG">
+                    <connections>
+                        <segue destination="BV1-FR-VrT" kind="show" id="yHR-Ra-l0O"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="119.2" y="26.53673163418291"/>
+        </scene>
+        <!--Airuler-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BrB-h1-WRS">
+                <viewController id="BV1-FR-VrT" customClass="ARViewController" customModule="Airuler" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="XiL-hd-yUA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </arscnView>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" allowsCameraControl="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jgJ-E2-d8i">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="wob-RD-Lu7">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <color key="backgroundColor" white="0.1542689732142857" alpha="0.90085827464788737" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="40p-jc-EiR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pointer" highlightedImage="Pointer highlighted" translatesAutoresizingMaskIntoConstraints="NO" id="glY-aR-t8n">
+                                <rect key="frame" x="166" y="312" width="42" height="42"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOB-Sk-VmO">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.89849251760563376" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hOB-Sk-VmO" firstAttribute="top" secondItem="wob-RD-Lu7" secondAttribute="top" id="1qS-jq-0Q4"/>
+                            <constraint firstItem="hOB-Sk-VmO" firstAttribute="leading" secondItem="wob-RD-Lu7" secondAttribute="leading" id="DNb-MG-aNK"/>
+                            <constraint firstItem="jgJ-E2-d8i" firstAttribute="leading" secondItem="XiL-hd-yUA" secondAttribute="leading" id="EXR-uD-a1c"/>
+                            <constraint firstItem="jgJ-E2-d8i" firstAttribute="centerY" secondItem="glY-aR-t8n" secondAttribute="centerY" id="IFR-pS-M3E"/>
+                            <constraint firstItem="glY-aR-t8n" firstAttribute="centerY" secondItem="XiL-hd-yUA" secondAttribute="centerY" id="Qk2-B2-fCN"/>
+                            <constraint firstItem="jgJ-E2-d8i" firstAttribute="bottom" secondItem="Flf-uL-x4C" secondAttribute="bottom" id="ZVg-N6-ex8"/>
+                            <constraint firstItem="jgJ-E2-d8i" firstAttribute="centerX" secondItem="glY-aR-t8n" secondAttribute="centerX" id="eqa-AT-UFI"/>
+                            <constraint firstItem="glY-aR-t8n" firstAttribute="centerX" secondItem="XiL-hd-yUA" secondAttribute="centerX" id="o5P-KI-dHa"/>
+                            <constraint firstItem="hOB-Sk-VmO" firstAttribute="bottom" secondItem="jgJ-E2-d8i" secondAttribute="bottom" id="p7r-o5-58T"/>
+                            <constraint firstItem="wob-RD-Lu7" firstAttribute="leading" secondItem="jgJ-E2-d8i" secondAttribute="leading" id="qje-Ck-n5W"/>
+                            <constraint firstItem="wob-RD-Lu7" firstAttribute="bottom" secondItem="jgJ-E2-d8i" secondAttribute="bottom" id="rIq-2J-11W"/>
+                            <constraint firstItem="wob-RD-Lu7" firstAttribute="trailing" secondItem="jgJ-E2-d8i" secondAttribute="trailing" id="vOA-Pw-6Yd"/>
+                            <constraint firstItem="hOB-Sk-VmO" firstAttribute="trailing" secondItem="wob-RD-Lu7" secondAttribute="trailing" id="zVK-fb-9pc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Flf-uL-x4C"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Airuler" id="Zhg-Hh-F6u">
+                        <barButtonItem key="backBarButtonItem" title=" " id="5yf-Zf-hgw"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <connections>
-                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                        <outlet property="aim" destination="glY-aR-t8n" id="OgO-2l-Sno"/>
+                        <outlet property="loading" destination="hOB-Sk-VmO" id="LAn-1v-BMC"/>
+                        <outlet property="measurement" destination="wob-RD-Lu7" id="gdm-C5-kD6"/>
+                        <outlet property="sceneView" destination="jgJ-E2-d8i" id="d7O-LD-wLb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="980" y="26.53673163418291"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="C7C-6g-OjE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lrx-L2-DvW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="G7i-6q-9ki">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="20"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kBq-cm-jTj" kind="relationship" relationship="rootViewController" id="VO0-fG-ngF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8ST-jg-rKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-798" y="27"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Airuler Logo" width="489" height="216"/>
+        <image name="Pointer" width="42" height="42"/>
+        <image name="Pointer highlighted" width="42" height="42"/>
+    </resources>
 </document>

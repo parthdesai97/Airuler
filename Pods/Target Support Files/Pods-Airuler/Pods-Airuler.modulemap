@@ -1,0 +1,6 @@
+framework module Pods_Airuler {
+  umbrella header "Pods-Airuler-umbrella.h"
+
+  export *
+  module * { export * }
+}

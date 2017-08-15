@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2414636C1F316D2400616948 /* Main Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2414636B1F316D2400616948 /* Main Menu.swift */; };
 		246203071F314821003A9303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246203061F314821003A9303 /* AppDelegate.swift */; };
 		246203091F314821003A9303 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 246203081F314821003A9303 /* art.scnassets */; };
-		2462030B1F314821003A9303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2462030A1F314821003A9303 /* ViewController.swift */; };
+		2462030B1F314821003A9303 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2462030A1F314821003A9303 /* ARViewController.swift */; };
 		2462030E1F314821003A9303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2462030C1F314821003A9303 /* Main.storyboard */; };
 		246203101F314821003A9303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2462030F1F314821003A9303 /* Assets.xcassets */; };
 		246203131F314821003A9303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246203111F314821003A9303 /* LaunchScreen.storyboard */; };
+		2462031C1F3148AD003A9303 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2462031A1F3148AC003A9303 /* Quicksand-Light.ttf */; };
+		2462031D1F3148AD003A9303 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2462031B1F3148AD003A9303 /* Quicksand-Regular.ttf */; };
+		246203201F31518F003A9303 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2462031F1F31518F003A9303 /* Extensions.swift */; };
+		AADE83AC84D5A25368B0629D /* Pods_Airuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F58B0B3ED73DA8DEC228352 /* Pods_Airuler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14BA72681ED80835F873166C /* Pods-Airuler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airuler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airuler/Pods-Airuler.debug.xcconfig"; sourceTree = "<group>"; };
+		2414636B1F316D2400616948 /* Main Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Main Menu.swift"; sourceTree = "<group>"; };
 		246203031F314821003A9303 /* Airuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		246203061F314821003A9303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		246203081F314821003A9303 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		2462030A1F314821003A9303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2462030A1F314821003A9303 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		2462030D1F314821003A9303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2462030F1F314821003A9303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		246203121F314821003A9303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		246203141F314821003A9303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2462031A1F3148AC003A9303 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		2462031B1F3148AD003A9303 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		2462031F1F31518F003A9303 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../../../Downloads/MeasureARKit-master/ARSampleApp/Extensions.swift"; sourceTree = "<group>"; };
+		6E13319ADAF1924C78B237BF /* Pods-Airuler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airuler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airuler/Pods-Airuler.release.xcconfig"; sourceTree = "<group>"; };
+		6F58B0B3ED73DA8DEC228352 /* Pods_Airuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Airuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADE83AC84D5A25368B0629D /* Pods_Airuler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BCB2E19F7E0EADD39F1AC3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F58B0B3ED73DA8DEC228352 /* Pods_Airuler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		246202FA1F314820003A9303 = {
 			isa = PBXGroup;
 			children = (
 				246203051F314821003A9303 /* Airuler */,
 				246203041F314821003A9303 /* Products */,
+				C58CE08C894CB34A58BC1836 /* Pods */,
+				0BCB2E19F7E0EADD39F1AC3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,36 @@
 		246203051F314821003A9303 /* Airuler */ = {
 			isa = PBXGroup;
 			children = (
+				2462031E1F3148F0003A9303 /* Fonts */,
 				246203061F314821003A9303 /* AppDelegate.swift */,
 				246203081F314821003A9303 /* art.scnassets */,
-				2462030A1F314821003A9303 /* ViewController.swift */,
+				2414636B1F316D2400616948 /* Main Menu.swift */,
+				2462030A1F314821003A9303 /* ARViewController.swift */,
+				2462031F1F31518F003A9303 /* Extensions.swift */,
 				2462030C1F314821003A9303 /* Main.storyboard */,
 				2462030F1F314821003A9303 /* Assets.xcassets */,
 				246203111F314821003A9303 /* LaunchScreen.storyboard */,
 				246203141F314821003A9303 /* Info.plist */,
 			);
 			path = Airuler;
+			sourceTree = "<group>";
+		};
+		2462031E1F3148F0003A9303 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2462031A1F3148AC003A9303 /* Quicksand-Light.ttf */,
+				2462031B1F3148AD003A9303 /* Quicksand-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C58CE08C894CB34A58BC1836 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14BA72681ED80835F873166C /* Pods-Airuler.debug.xcconfig */,
+				6E13319ADAF1924C78B237BF /* Pods-Airuler.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 246203171F314821003A9303 /* Build configuration list for PBXNativeTarget "Airuler" */;
 			buildPhases = (
+				585834BEAD0CFCBC3D8C4605 /* [CP] Check Pods Manifest.lock */,
 				246202FF1F314821003A9303 /* Sources */,
 				246203001F314821003A9303 /* Frameworks */,
 				246203011F314821003A9303 /* Resources */,
+				3FFBE4C1FC8708705D73E7A2 /* [CP] Embed Pods Frameworks */,
+				BC4D1BD1C74469E665C9E582 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,20 +173,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				246203091F314821003A9303 /* art.scnassets in Resources */,
+				2462031D1F3148AD003A9303 /* Quicksand-Regular.ttf in Resources */,
 				246203131F314821003A9303 /* LaunchScreen.storyboard in Resources */,
 				246203101F314821003A9303 /* Assets.xcassets in Resources */,
 				2462030E1F314821003A9303 /* Main.storyboard in Resources */,
+				2462031C1F3148AD003A9303 /* Quicksand-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FFBE4C1FC8708705D73E7A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airuler/Pods-Airuler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		585834BEAD0CFCBC3D8C4605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4D1BD1C74469E665C9E582 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airuler/Pods-Airuler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		246202FF1F314821003A9303 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2462030B1F314821003A9303 /* ViewController.swift in Sources */,
+				2414636C1F316D2400616948 /* Main Menu.swift in Sources */,
+				2462030B1F314821003A9303 /* ARViewController.swift in Sources */,
+				246203201F31518F003A9303 /* Extensions.swift in Sources */,
 				246203071F314821003A9303 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +294,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -252,7 +352,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -275,12 +376,14 @@
 		};
 		246203181F314821003A9303 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14BA72681ED80835F873166C /* Pods-Airuler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KF29YMGV9R;
 				INFOPLIST_FILE = Airuler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = parthdesai.Airuler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parthdesai.Airuler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,12 +392,14 @@
 		};
 		246203191F314821003A9303 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E13319ADAF1924C78B237BF /* Pods-Airuler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KF29YMGV9R;
 				INFOPLIST_FILE = Airuler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = parthdesai.Airuler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parthdesai.Airuler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,6 +425,7 @@
 				246203191F314821003A9303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
