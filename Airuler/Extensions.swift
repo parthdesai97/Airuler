@@ -2,8 +2,8 @@
 //  Extensions.swift
 //  ARSampleApp
 //
-//  Created by Pawel Chmiel on 13.07.2017.
-//  Copyright © 2017 Droids On Roids. All rights reserved.
+//  Created by Parth Desai on 13.07.2017.
+//  Copyright © 2017 Parth Desai. All rights reserved.
 //
 
 import Foundation
